@@ -31,6 +31,16 @@ If the laser pointer is not detected accurately, adjust the HSV range in the scr
 ```python
 lower_red = np.array([160, 100, 100])
 upper_red = np.array([179, 255, 255])
+```
+## Exiting the Program
+To close the program, press 'q' on the keyboard in the video window.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+- OpenCV for powerful computer vision tools.
+- Numpy for efficient array handling.
 
 
 
