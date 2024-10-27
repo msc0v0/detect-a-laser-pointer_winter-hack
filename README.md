@@ -16,5 +16,28 @@ This project uses OpenCV to detect and track a red laser pointer in real-time us
 
 1. **Clone the repository:**
    https://github.com/msc0v0/detect-a-laser-pointer_winter-hack
+   ```bash
+   pip install opencv-python-headless numpy
+   python import cv2.py
+## Usage
+- Make sure your webcam is connected.
+- Run the script as shown in the installation instructions.
+- The live video feed from your webcam will appear.
+- Point a red laser at the camera view; the program will detect it, draw a green circle around it, and show its coordinates.
+
+## Adjusting HSV Range
+If the laser pointer is not detected accurately, adjust the HSV range in the script:
+
+```python
+lower_red = np.array([160, 100, 100])
+upper_red = np.array([179, 255, 255])
+
+
+
+
+
+
+   
+   
    
    
